@@ -5,7 +5,7 @@
     "dependencies": {
         "ftp": "0.1.7",
         "tmbdv3": "0.1.2",
-        "tvrage": "0.0.1",
+        "tvrage-x": "0.0.1",
         "async": "*",
         "ent": "*",
         "superagent" : "*",

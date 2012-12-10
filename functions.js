@@ -1,6 +1,6 @@
 var config = require('./config.js');
 var MovieDB = require('tmdbv3').init(config.APIKeys.theMovieDB);
-var TVRage = require('tvrage')();
+var TVRage = require('tvrage-x')();
 var TVShow = require('./Models/TVShow.js');
 
 var ent = require('ent');

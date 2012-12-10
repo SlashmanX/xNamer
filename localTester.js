@@ -21,7 +21,7 @@ for(var s in MovieFilenames)
     });
 }
 
-/*async.forEachSeries(TVFilenames, function(show, cb){
+async.forEachSeries(TVFilenames, function(show, cb){
     func.getTVShowInfo(show, function(show){
         console.log(show);
         cb();
@@ -35,5 +35,5 @@ for(var s in MovieFilenames)
             process.exit();
         }
     }
-);*/
+);
 
