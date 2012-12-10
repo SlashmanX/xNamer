@@ -3,6 +3,14 @@
     "version": "0.0.1",
     "private": true,
     "dependencies": {
-        "ftp": "0.1.7"
+        "ftp": "0.1.7",
+        "tmbdv3": "0.1.2",
+        "tvrage": "0.0.1",
+        "async": "*",
+        "ent": "*",
+        "superagent" : "*",
+        "prompt" : "*",
+        "mongoose": ">3.0.0",
+        "mongodb": "*"
     }
 }

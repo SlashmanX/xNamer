@@ -9,6 +9,10 @@ lib-cov
 
 .idea/*
 
+node_modules/*
+
+!node_modules/tvrage/
+
 pids
 logs
 results
