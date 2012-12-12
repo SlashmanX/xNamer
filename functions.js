@@ -38,6 +38,7 @@ var XRegExp = require('xregexp').XRegExp;
             text =text3[1];
         MovieDB.search.movie(text , function(err, res){
             if(err) callback(err, input);
+            else if(!res.results.length) callback(err, null);
             else callback(err, res.results[0].title);
         });
     }
@@ -53,7 +54,7 @@ var XRegExp = require('xregexp').XRegExp;
         {
             tvShow.origName = input;
             tvShow.name = text[1].replace(/\./g,' ');
-            tvShow.season = parseInt(text[2], 10);
+            tvShow.season = text[2];
             tvShow.episode = text[3];
         }
 
